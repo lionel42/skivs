@@ -1,0 +1,54 @@
+id,resort,town,mean,stop_departure,stop_arrival,duration(min),price(halbtax),company,change,onarrivalwalktime(min),comment,frequency
+4vallees_ours,4vallees,veysonnaz,bus,"Sion, poste/gare","Mayens-de-l'Ours, télécabine",29.0,2.5,poste,,2,,0.725
+4vallees_veysonnaz,4vallees,veysonnaz,bus,"Sion, poste/gare","Veysonnaz, station",34.0,5.1,poste,,2,,0.945
+4vallees_thyon,4vallees,thyon,bus,"Sion, poste/gare",Thyon/Thyon 2000,56.0,8.0,theytaz,,2,,1.2766666666666666
+4vallees_lesmasses,4vallees,heremence,bus,"Sion, poste/gare","Les Masses, télésiège",40.0,5.9,theytaz,,1,,0.67
+4vallees_nendaz,4vallees,nendaz,bus,"Sion, poste/gare","Haute-Nendaz, télécabine",38.0,5.9,poste,,0,,1.585
+4vallees_siviez,4vallees,sivez,,"Sion, poste/gare",Siviez (station aval),,,,,2,,0.8883333333333333
+4vallees_tsoumaz_direct,4vallees,tsoumaz,bus,"Riddes, gare","La Tzoumaz, télécabine",33.0,6.4,poste,,1,,0.3866666666666667
+4vallees_tsoumaz_iserable,4vallees,tsoumaz,cablecar+bus,Riddes (téléphérique),"La Tzoumaz, télécabine",40.0,6.4,poste,1.0,1,,0.5
+4vallees_verbier,4vallees,verbier,train+cablecar,Martigny,Verbier (télécabine),39.0,9.1,cff,1.0,0,,1.335
+champex,stbernard,champex,train+bus,Martigny,"Champex, télé",51.0,9.5,cff+poste,2.0,1,,0.4716666666666667
+foully,stbernard,lafoully,train+bus,Martigny,La Fouly VS,51.0,10.2,cff+poste,2.0,1,,0.33499999999999996
+vicheresliddes,stbernard,vicheres,train+navette,Martigny,"Vichères, Le Chapelet",65.0,10.9,cff+navette,2.0,1,"Not in sbb, because navette is not there",0.0
+marecottes,marecottes,marecottes,train,Martigny,Les Marécottes,30.0,4.7,mtblanc,,10,,1.0283333333333333
+ovronnaz,ovronnaz,ovronnaz,bus,"Riddes, gare","Ovronnaz, télé/centre sportif",36.0,4.3,poste,,1,,0.4466666666666667
+crans,cransmontana,crans,bus,"Sion, poste/gare","Crans-Montana, Le Mèrignou",45.0,6.8,poste,,5,,0.5
+montanastation,cransmontana,montana,funi+navette,Sierre/Siders (funi),"Crans-Montana, Ycoor",21.0,6.8,smc,1.0,2,Bus direct also available but slower,1.25
+montanaviolettes,cransmontana,montana,funi+navette,Sierre/Siders (funi),"Crans-Montana, télé Violettes",20.0,6.8,smc,1.0,1,,1.42
+grimentz,anniviers,grimentz,bus,"Sierre/Siders, gare routière","Grimentz, télécabine",58.0,8.6,poste,1.0,1,,1.17
+zinal,anniviers,zinal,bus,"Sierre/Siders, gare routière","Zinal, télécabine",56.0,9.7,poste,1.0,1,,1.17
+chandolin,anniviers,chandolin,bus,"Sierre/Siders, gare routière","Chandolin, télésiège",56.0,9.2,poste,1.0,1,,1.17
+vercorin,anniviers,vercorin,cablecar,Chalais (station aval)," ""Vercorin (station amont)""",17.0,3.6,vercorin,,10,,0.75
+evolene,dentblanche,evolene,bus+navette,"Sion, poste/gare","Evolène, Village",60.0,8.0,poste,1.0,30,There is also a navette mandatory or 30 min walk,0.915
+arolla,dentblanche,arolla,bus,"Sion, poste/gare","Arolla, Magine",71.0,11.9,poste,1.0,2,,0.5566666666666668
+forclaz,dentblanche,forclaz,bus,"Sion, poste/gare",La Forclaz VS,68.0,10.2,poste,,2,,0.5850000000000001
+nax,telemontnoble,nax,bus+navette,"Sion, poste/gare","Nax, La Crettaz",90.0,5.1,poste,1.0,30,"Only the Navette goes to the ski domain, and it is not synched the bus",0.41500000000000004
+anzere,anzere,anzere,bus,"Sion, poste/gare","Anzère, télécabine",37.0,5.9,poste,,1,,0.9433333333333334
+leukerbad,leukerbad,leukerbad,bus,"Leuk, Bahnhof","Leukerbad, Busterminal",50.0,6.3,poste,,20,Walk 20 min or take the shuttle,1.415
+jeizinen,jeizinen,jeizinen,cablecar,Gampel (Talstation Jeizinen),Jeizinen (Bergstation),15.0,,unkown,,5,,1.085
+lauchernalp_gampel,lotschental,wiler,bus,"Gampel-Steg, Bahnhof","Wiler (Lötschen), Talstation",32.0,5.5,poste,,0,,0.5283333333333333
+lauchernalp_brig,lotschental,wiler,train+bus,Brig,"Wiler (Lötschen), Talstation",37.0,10.3,cff+poste,1.0,0,,1.0283333333333333
+eischoll,unterbach,eischoll,cablecar,Raron (Talstation Eischoll),Eischoll (Bergstation),18.0,3.2,unkown,,10,,1.0833333333333333
+unterbach,unterbach,unterbach,cablecar,Raron (Talstation Unterbäch),Unterbäch (Bergstation),8.0,3.2,unkown,,0,,1.085
+moosalp,moosalp,burchen,bus,"Visp, Bahnhof Süd","Bürchen, Station",38.0,4.7,poste,,0,,0.7783333333333333
+moosalp_zniwwu,moosalp,torbel,train+bus,Visp,"Törbel, Skilift Z Niwwu",70.0,8.2,mgb+poste,1.0,0,Not optimal compared to the bus to Bürchen,0.3333333333333333
+visperterminen,visperterminen,visperterminen,bus,"Visp, Bahnhof Süd","Visperterminen, Busterminal",23.0,3.6,poste,,2,,0.9166666666666666
+staldenried,staldenried,staldenried,train+cablecar,Visp,Staldenried,25.0,5.0,mgb+cablecar,1.0,2,,1.1666666666666667
+grachen_bus_direct,grachen,grachen,bus,"Visp, Bahnhof Süd","Grächen, Zentrum",40.0,13.3,poste,,2,,0.22333333333333336
+grachen_via_stniklaus,grachen,grachen,train+bus,Visp,"Grächen, Zentrum",67.0,13.3,mgb+poste,1.0,2,,1.3066666666666666
+zermatt,zermatt,zermatt,train,Visp,Zermatt,66.0,19.0,mgb,,2,"Once there you can take a small train next to the station, or walk/navette to other lifts",1.415
+saasgrund,saasfee,saasgrund,bus,"Visp, Bahnhof Süd","Saas-Grund, Bergbahnen",38.0,8.0,poste,,0,,1.085
+saasalmagell,saasfee,saasalmagell,bus,"Visp, Bahnhof Süd","Saas-Almagell, Dorfplatz",59.0,9.2,poste,1.0,2,,1.335
+saasfee,saasfee,saasfee,bus,"Visp, Bahnhof Süd","Saas-Fee, Busterminal",60.0,9.2,poste,,10,10 min walk or shuttle,1.25
+belalp,belalp,blatten,bus,"Brig, Bahnhof","Blatten b. Naters,Luftseilbahn",22.0,3.2,poste,,0,,1.3883333333333334
+rosswald,rosswald,rosswald,bus+cablecar,"Brig, Bahnhof",Rosswald,36.0,,poste,1.0,2,,1.055
+rothwald,rothwald,rothwald,bus,"Brig, Bahnhof","Rothwald, Schutzhaus",27.0,5.5,poste,,2,,0.44333333333333336
+bellwald,bellwald,bellwald,train+cablecar,Brig Bahnhofplatz,Bellwald (Bergstation),61.0,9.9,mgb+cablecar,1.0,15,,1.4716666666666667
+riederalp,aletsch,riederalp,train+cablecar,Brig Bahnhofplatz,Riederalp West,30.0,7.8,mgb+cablecar,1.0,1,,1.415
+bettmeralp,aletsch,bettmeralp,train+cablecar,Brig Bahnhofplatz,Bettmeralp,34.0,8.7,mgb+cablecar,1.0,1,,1.36
+fiescheralp,aletsch,fiescheralp,train+cablecar,Brig Bahnhofplatz,Fiescheralp,45.0,15.5,mgb+cablecar,1.0,1,,1.5
+champery,portesdusoleil,champery,train,Monthey-Ville,Champéry,36.0,4.7,cff,,2,,1.17
+lescrosets,portesdusoleil,lescrosets,train`bus,Monthey-Ville,"Les Crosets, télésièges",58.0,6.8,cff+poste,1.0,1,,0.3583333333333334
+champoussin,portesdusoleil,champoussin,train+bus,Monthey-Ville,"Champoussin, téléski Champeys",47.0,7.5,cff+poste,1.0,2,,0.33
+morgins,portesdusoleil,morgins,train+bus,Monthey-Ville,"Morgins, poste",35.0,5.9,cff+poste,1.0,3,,0.64
